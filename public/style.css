@@ -1,0 +1,33 @@
+a{
+	text-decoration-style: none;
+	text-decoration: none;
+	color: black;
+}
+a:active{
+	color: red;
+}
+#root{
+	padding: 0;
+	margin: 0;
+}
+body,html{
+	padding: 0;
+	margin: 0;
+}
+nav{
+	padding: 10px;
+	margin: 0;
+	background: lightgray
+}
+li{
+	color: black;
+	font-size: 21px;
+	display: inline-block;
+	padding-right: 1em;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+li:hover{
+	margin-right: 12px;
+	font-weight: bolder;
+}
